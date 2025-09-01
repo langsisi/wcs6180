@@ -2,20 +2,34 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>CowainWcs6180 App</title>
-    <link>https://netsparkleupdater.github.io/NetSparkle/files/sample-app/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/langsisi/wcs6180/refs/heads/main/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 2.0 (2 bugs fixed; 3 new features)</title>
+      <title>1.0.2</title>
       <sparkle:releaseNotesLink>
-        https://netsparkleupdater.github.io/NetSparkle/files/sample-app/2.0-release-notes.md
+        https://raw.githubusercontent.com/langsisi/wcs6180/refs/heads/main/UPGRADING.md
       </sparkle:releaseNotesLink>
-      <enclosure url="https://netsparkleupdater.github.io/NetSparkle/files/sample-app/NetSparkleUpdate.exe"
-                 sparkle:version="2.0"
+      <enclosure url="https://github.com/langsisi/wcs6180/releases/download/Wcs6180-1.0.1/publish-1.0.2.zip"
+                 sparkle:version="1.0.2"
                  sparkle:os="windows"
-                 length="12288"
+                 length="86745892"
                  type="application/octet-stream"
                  sparkle:signature="1kn2IpyUkmRCkvlcLFPxOJUjrRMRME4L+hSAlkDihps=" />
+      <pubDate>2025-09-01</pubDate>
+    </item>
+    <item>
+      <title>First</title>
+      <sparkle:releaseNotesLink>
+        https://raw.githubusercontent.com/langsisi/wcs6180/refs/heads/main/UPGRADING.md
+      </sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/langsisi/wcs6180/releases/download/Wcs6180-1.0.1/publish-1.0.1.zip"
+                 sparkle:version="1.0.1"
+                 sparkle:os="windows"
+                 length="86745078"
+                 type="application/octet-stream"
+                 sparkle:signature="1kn2IpyUkmRCkvlcLFPxOJUjrRMRME4L+hSAlkDihps=" />
+      <pubDate>2025-09-01</pubDate>
     </item>
   </channel>
 </rss>
