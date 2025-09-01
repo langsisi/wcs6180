@@ -10,7 +10,7 @@
       <sparkle:releaseNotesLink>
         https://raw.githubusercontent.com/langsisi/wcs6180/refs/heads/main/UPGRADING.md
       </sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/langsisi/wcs6180/releases/download/Wcs6180-1.0.1/publish-1.0.2.zip"
+      <enclosure url="https://github.com/langsisi/wcs6180/releases/download/Wcs6180-1.0.2/publish-1.0.2.zip"
                  sparkle:version="1.0.2"
                  sparkle:os="windows"
                  length="86745892"
